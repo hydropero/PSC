@@ -5,7 +5,12 @@ A collection of useful "at least to me" PowerShell Scripts.
 Takes a single argument of either a single MAC address or an array of MAC addresses and then queries an API for their OUI vendor information.
 
 ## Network_Discovery
-A script to give you a rundown of the devices on your subnet, which including information regarding their: IP Addresses, Hostnames, Mac Addresses, NIC cards, Ports. **note - only a single port may be tested as time currently**
+A script to give you a rundown of the devices on your subnet, which including information regarding their: IP Addresses, Hostnames, Mac Addresses, NIC cards, Ports. 
+1. **note - only a single port may be tested as time currently**
+2. **Results are output as a custom PS Object for further refinement**
+3. **Script cannot yet take pipeline data from other cmdlets**
+
+
 
 
 
